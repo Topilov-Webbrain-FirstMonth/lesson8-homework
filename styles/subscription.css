@@ -1,4 +1,48 @@
 .subscription {
     padding: 0 180px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription .left-side {
+    width: 50%;
+}
+
+.subscription .right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.subscription .right-side .title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+}
+
+.subscription .right-side p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+
+.subscription a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #5454d4;
+    transition: 0.1s linear;
+}
+
+.subscription a:hover {
+    color: #5481d4;
 }
